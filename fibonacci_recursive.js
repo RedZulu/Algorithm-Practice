@@ -9,8 +9,8 @@ let fibonacci = (target, currentInSequence, index) => {
 let fib = (target, currentInSequence, index) => {
    if(index) {
      let countDownIndex = index - 1,
-         nextInSequence  = target + currentInSequence;
-     return fib(currentInSequence, nextInSequence, countDownIndex);
+         IncrementSequence  = target + currentInSequence;
+     return fib(currentInSequence, IncrementSequence, countDownIndex);
    } else {
      return target;
    }
